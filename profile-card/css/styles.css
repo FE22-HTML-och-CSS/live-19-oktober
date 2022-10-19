@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw; /* vw = viewport width  */
+    height: 100vh; /* vh = viewport height  */
+    margin: 0;
+}
+
+.profile-card {
+    width: 14rem;
+    height: 19rem;
+    border: 2px solid #443385;
+    margin: 1rem auto; /* 20px för top och bottom och auto för left och right */
+    padding: 0.5rem;
+    box-shadow: -8px 8px #e1e1fc;
+}
+
+.heading {
+    text-align: center;
+}
+
+.button {
+    background-color: #443385;
+    color: #ffffff;
+    padding: 0.5rem;
+    border: 1px solid #443385;
+    border-radius: 5px;
+    box-shadow: -4px 4px #e1e1fc;
+    display: block;
+    margin: 0.5rem auto;
+}
